@@ -1,0 +1,21 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+header{
+  background-image: url('../img/eduardo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 30rem;
+}
+
+@media (max-width: 575px){
+  header{
+    padding-bottom: 0rem;
+  }
+}
+.titulo{
+  margin-top: 100px;
+}
