@@ -1,5 +1,4 @@
 body{
-  font-family: 'Open Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -18,4 +17,14 @@ header{
 }
 .titulo{
   margin-top: 100px;
+}
+
+.blanco{
+  border-top: 2px solid #ffffff;
+  width: 20%
+}
+
+.oscuro{
+  border-top: 2px solid #000000;
+  width: 20%
 }

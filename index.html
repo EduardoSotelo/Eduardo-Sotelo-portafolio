@@ -4,12 +4,16 @@
     <meta charset="utf-8">
     <title>Protafolio</title>
     <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
 
     <!--css bootstrap 4.3.1-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <!---Mi estilo-->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -17,38 +21,46 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Edo</a>
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo-edo.png" width="126" height="45" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre mi</a>
+              <a class="nav-link" href="#sobre-mi">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiencia</a>
+              <a class="nav-link" href="#experiencia">Experiencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Trabajos</a>
+              <a class="nav-link" href="#trabajos">Trabajos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="hero text-light text-center pt-5 mt-5">
-      <div class="container">
-        <h1 class="titulo display-4 font-weight-light my-5 border-bottom">YO SOY</h1>
-        <h1 class="display-4 font-weight-bold my-5">Eduardo Sotelo</h1>
+    <header class="hero text-light text-center pt-5 mt-5 align-middle">
+      <div class="container mt-5">
+        <h1 class="display-4 font-weight-light">YO SOY</h1>
+        <hr class="blanco">
+        <h1 class="display-4 font-weight-bold">Eduardo Sotelo</h1>
       </div>
     </header>
 
-    <section class="container mt-5">
-      <p class="border-bottom border-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!---Sobre Mí-->
+    <section id="sobre-mi" class="container mt-5 d-none d-sm-block d-md-block">
+      <p>Soy Diseñador Gráfico Profesional egresado y titulado de la escuela de DAC (Diseño Arte Comunicación) de AIEP Providencia.
+        Actualmente trabajo en el desarrollo de diseño web tanto como UI - AI - UX manejo de plataformas móviles, paginas web , responsive web design.
+        A lo largo de mi carrera profesional he realizado trabajos de papelería, imagen corporativa, rediseño de imagen corporativa , desarrollo he  implementación y maquetación de paginas web.
+      </p>
+      <hr class="oscuro mt-3">
       <div class="row mt-5">
         <div class="col-6 Font-weight-light">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -59,94 +71,123 @@
       </div>
     </section>
 
-     <section class="container mt-5 border-dark">
-       <h1 class="text-center">Mí Experiencia</h1>
-        <div class="row mt-5">
-          <div class="col-4">
-            <h3>hola</h3>
-          </div>
-          <div class="col-4">
-            <h3>hola</h3>
-          </div>
-          <div class="col-4">
-            <h3>hola</h3>
-          </div>
-        </div>
+    <!--Experiencia-->
+     <section id="experiencia" class="container mt-5 p-5 text-center">
+       <h1>Mí Experiencia</h1>
+       <div class="row">
+         <div class="col-md-4 mt-5">
+           <i class="fas fa-user-graduate fa-3x my-3"></i>
+           <h3 class="my-3">Practica Diseño Gráfico</h3>
+           <p>Realizo distintos tipos de encargos tanto de papelería, imagen corporativa, desarrolló
+            de campañas creativas para captar publico, re-diseño de paginas web y formularios web.
+           </p>
+         </div>
+         <div class="col-md-4 mt-5">
+           <i class="fas fa-users fa-3x my-3"></i>
+           <h3 class="my-3">Diseño Gráfico & UX-UI</h3>
+           <p class="my-3">Realizo distintos tipos de encargos tanto de papelería, imagen corporativa, desarrolló
+            de campañas creativas para captar publico, re-diseño de paginas web y formularios web.
+          </p>
+         </div>
+         <div class="col-md-4 mt-5">
+           <i class="far fa-map fa-3x my-3"></i>
+           <h3 class="my-3">jefe área de Diseño</h3>
+           <p class="my-3">forme parte del equipo hasta que se el área de dio por cerrada por motivos de la empresa.</p>
+         </div>
+       </div>
      </section>
 
-     <section class="container-fluid my-5 p-5 bg-dark">
-
+    <!--Trabajos-->
+     <section id="trabajos" class="container-fluid mt-5 p-5 bg-dark">
       <h1 class="display-3 text-center my-4 text-white">Mis ultimos trabajos</h1>
-
       <div class="card-columns mt-5">
+
         <!--Card 1-->
         <div class="card mt-4">
-         <img src="assets/img/meet&coffee.png" class="card-img-top" alt="...">
+         <img src="assets/img/meet&coffee.jpg" class="card-img-top" alt="meet&coffee">
          <div class="card-body">
-           <h5 class="card-title">Card title that wraps to a new line</h5>
+           <h5 class="card-title font-weight-bold">Meet & Coffee</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
          </div>
         </div>
 
         <!--Card 2-->
         <div class="card mt-4">
-         <img src="assets/img/meet&coffee.png" class="card-img-top" alt="...">
+         <img src="assets/img/iguana.jpg" class="card-img-top" alt="iguana">
          <div class="card-body">
-           <h5 class="card-title">Card title that wraps to a new line</h5>
+           <h5 class="card-title font-weight-bold">Iguana</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
          </div>
         </div>
 
         <!--Card 3-->
         <div class="card mt-4">
-         <img src="assets/img/meet&coffee.png" class="card-img-top" alt="...">
+         <img src="assets/img/suricata.jpg" class="card-img-top" alt="suricata">
          <div class="card-body">
-           <h5 class="card-title">Card title that wraps to a new line</h5>
+           <h5 class="card-title font-weight-bold">Suricata</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
          </div>
         </div>
 
         <!--Card 4-->
         <div class="card mt-4">
-         <img src="assets/img/meet&coffee.png" class="card-img-top" alt="...">
+         <img src="assets/img/cuppon.jpg" class="card-img-top" alt="cuppon">
          <div class="card-body">
-           <h5 class="card-title">Card title that wraps to a new line</h5>
+           <h5 class="card-title font-weight-bold">Cuppon</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
          </div>
         </div>
 
         <!--Card 5-->
         <div class="card mt-4">
-         <img src="assets/img/meet&coffee.png" class="card-img-top" alt="...">
+         <img src="assets/img/ricomida.jpg" class="card-img-top" alt="ricomida">
          <div class="card-body">
-           <h5 class="card-title">Card title that wraps to a new line</h5>
+           <h5 class="card-title font-weight-bold">Ricomida</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
          </div>
         </div>
 
         <!--Card 6-->
         <div class="card mt-4">
-         <img src="assets/img/meet&coffee.png" class="card-img-top" alt="...">
+         <img src="assets/img/oliviaros.jpg" class="card-img-top" alt="oliviaros">
          <div class="card-body">
-           <h5 class="card-title">Card title that wraps to a new line</h5>
+           <h5 class="card-title font-weight-bold">Olivia Ros</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
          </div>
         </div>
       </div>
      </section>
 
-     <section class="container">
-        <h1>Fomulario contacto acá</h1>
+     <!--Contacto-->
+     <section id="contacto" class="container text-center">
+       <h1 class="display-3 text-center mt-5">
+         Contáctame
+       </h1>
+
+       <div class="typeform-widget" data-url="https://eduardo116867.typeform.com/to/fNfRBa" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=fNfRBa&utm_source=typeform.com-13967388-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
      </section>
 
+    <!--Footer-->
      <footer class="bg-dark text-center text-light p-3">
-       <p>Eduardo Sotelo</p>
+       <div class="row">
+         <div class="col-md-6">
+           <p class="align-middle">eduardo sotelo</p>
+         </div>
+         <div class="col-md-6">
+           <a href="https://github.com/EduardoSotelo" target="_blank"><i class="fab fa-github-square fa-3x text-white m-2"></i></a>
+           <a href="https://www.linkedin.com/in/eduardosotelon/" target="_blank"><i class="fab fa-linkedin fa-3x text-white m-2"></i></a>
+           <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x text-white m-2"></i></a>
+           <a href="https://www.facebook.com/eduardo.s.nunez" target="_blank"><i class="fab fa-facebook-square fa-3x text-white m-2"></i></a>
+         </div>
+       </div>
      </footer>
-    <!---JQuery 3.3.1-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!---JQuery 3.4.1-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
     <!---Popper 1.14.7-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <!---Js-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--Mi script-->
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
