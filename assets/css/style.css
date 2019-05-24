@@ -15,8 +15,10 @@ header{
     padding-bottom: 0rem;
   }
 }
+
 .titulo{
-  margin-top: 100px;
+  padding-top: 300px;
+  padding-bottom: 200px;
 }
 
 .blanco{
@@ -26,5 +28,10 @@ header{
 
 .oscuro{
   border-top: 2px solid #000000;
+  width: 20%
+}
+
+.deco{
+  border-top: 2px solid #17a2b8;
   width: 20%
 }
