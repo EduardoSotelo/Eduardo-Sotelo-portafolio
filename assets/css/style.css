@@ -10,12 +10,6 @@ header{
   padding-bottom: 30rem;
 }
 
-@media (max-width: 575px){
-  header{
-    padding-bottom: 0rem;
-  }
-}
-
 .titulo{
   padding-top: 300px;
   padding-bottom: 200px;
@@ -34,4 +28,28 @@ header{
 .deco{
   border-top: 2px solid #17a2b8;
   width: 20%
+}
+
+.newsletter{
+  background-color: #17a2b8;
+  color: #ffffff;
+}
+
+.carousel-indicators{
+  top: 50px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+
+
+@media (max-width: 575px){
+  header{
+    padding-bottom: 0rem;
+  }
+
 }

@@ -73,7 +73,7 @@
 
     <!--Experiencia-->
      <section id="experiencia" class="container mt-5 p-5 text-center">
-       <h1 class="text-dark">Mí Experiencia</h1>
+       <h1 class="text-dark font-weight-bold">Mí Experiencia</h1>
        <hr class="oscuro mt-3">
        <div class="row">
          <div class="col-md-4 mt-5">
@@ -99,77 +99,123 @@
            <p class="my-3 text-secondary">forme parte del equipo hasta que se el área de dio por cerrada por motivos de la empresa.</p>
          </div>
        </div>
+
+       <!--Corousel-->
+       <div class="row mt-5">
+         <div class="col-sm-4 p-3 text-center">
+           <h3 class="text-secondary">Manejo programas:</h3>
+         </div>
+         <div class="col-sm-8 bg-info text-white rounded pt-4 pb-5">
+            <div id="BlogCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#BlogCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#BlogCarousel" data-slide-to="1"></li>
+               </ol>
+
+               <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-3">
+                      <i class="fab fa-sketch fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Sketch"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fab fa-html5 fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="HTML 5"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fab fa-bootstrap fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="bootstrap"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fas fa-pencil-ruler" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Adobe Illustrator"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-3">
+                      <i class="fab fa-css3-alt fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="CSS 3"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fab fa-js fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="JS"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fab fa-invision fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Invision"></i>
+                    </div>
+                    <div class="col-3">
+                      <i class="fas fa-camera-retro fa-2x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Adove Photoshop"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+
      </section>
 
     <!--Trabajos-->
      <section id="trabajos" class="container-fluid mt-5 p-5 bg-dark">
-      <h1 class="text-center my-4 text-white text-uppercase text-info">Mis ultimos trabajos</h1>
+      <h1 class="text-center font-weight-bold my-4 text-white text-uppercase text-info">Mis ultimos trabajos</h1>
       <hr class="deco">
       <div class="card-columns mt-5">
 
         <!--Card 1-->
         <div class="card mt-4">
-         <a href="#" data-toggle="modal" data-target="#meet">
-           <img src="assets/img/meet&coffee.jpg" class="card-img-top" alt="meet&coffee">
-         </a>
+         <img src="assets/img/meet&coffee.jpg" class="card-img-top" alt="meet&coffee">
          <div class="card-body">
            <h5 class="card-title font-weight-bold">Meet & Coffee</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           <a href="#" data-toggle="modal" data-target="#meet" class="card-link text-info">Ver Más</a>
          </div>
         </div>
 
         <!--Card 2-->
         <div class="card mt-4">
-         <a  href="#" data-toggle="modal" data-target="#iguana">
-           <img src="assets/img/iguana.jpg" class="card-img-top" alt="iguana">
-         </a>
+         <img src="assets/img/iguana.jpg" class="card-img-top" alt="iguana">
          <div class="card-body">
            <h5 class="card-title font-weight-bold">Iguana</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           <a href="#" data-toggle="modal" data-target="#iguana" class="card-link text-info">Ver Más</a>
          </div>
         </div>
 
         <!--Card 3-->
         <div class="card mt-4">
-         <a  href="#" data-toggle="modal" data-target="#suricata">
-           <img src="assets/img/suricata.jpg" class="card-img-top" alt="suricata">
-         </a>
+         <img src="assets/img/suricata.jpg" class="card-img-top" alt="suricata">
          <div class="card-body">
            <h5 class="card-title font-weight-bold">Suricata</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           <a href="#" data-toggle="modal" data-target="#suricata" class="card-link text-info">Ver Más</a>
          </div>
         </div>
 
         <!--Card 4-->
         <div class="card mt-4">
-         <a href="#" data-toggle="modal" data-target="#cuppon">
-           <img src="assets/img/cuppon.jpg" class="card-img-top" alt="cuppon">
-         </a>
+         <img src="assets/img/cuppon.jpg" class="card-img-top" alt="cuppon">
          <div class="card-body">
            <h5 class="card-title font-weight-bold">Cuppon</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           <a href="#" data-toggle="modal" data-target="#cuppon" class="card-link text-info">Ver Más</a>
          </div>
         </div>
 
         <!--Card 5-->
         <div class="card mt-4">
-         <a href="#" data-toggle="modal" data-target="#ricomida">
-           <img src="assets/img/ricomida.jpg" class="card-img-top" alt="ricomida">
-         </a>
+         <img src="assets/img/ricomida.jpg" class="card-img-top" alt="ricomida">
          <div class="card-body">
            <h5 class="card-title font-weight-bold">Ricomida</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           <a href="#" data-toggle="modal" data-target="#ricomida" class="card-link text-info">Ver Más</a>
          </div>
         </div>
 
         <!--Card 6-->
         <div class="card mt-4">
-         <a href="#" data-toggle="modal" data-target="#olivia">
            <img src="assets/img/oliviaros.jpg" class="card-img-top" alt="oliviaros">
-         </a>
          <div class="card-body">
            <h5 class="card-title font-weight-bold">Olivia Ros</h5>
            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           <a href="#" data-toggle="modal" data-target="#olivia" class="card-link text-info">Ver Más</a>
          </div>
         </div>
       </div>
@@ -254,7 +300,6 @@
            </div>
            <div class="modal-footer">
              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-             <button type="button" class="btn btn-primary">Save changes</button>
            </div>
          </div>
        </div>
@@ -276,7 +321,6 @@
            </div>
            <div class="modal-footer">
              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-             <button type="button" class="btn btn-primary">Save changes</button>
            </div>
          </div>
        </div>
@@ -324,16 +368,16 @@
        </div>
      </div>
 
-
-     <!--Contacto
-     <section id="contacto" class="container text-center">
-       <h1 class="display-3 text-center mt-5">
-         Contáctame
-       </h1>
-
-       <div class="typeform-widget" data-url="https://eduardo116867.typeform.com/to/fNfRBa" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=fNfRBa&utm_source=typeform.com-13967388-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+     <!--Contacto-->
+     <section id="contacto" class="newsletter container-fluid py-5">
+        <h1 class="text-center font-weight-bold text-white text-uppercase">Contacto</h1>
+        <hr class="blanco">
+        <div class="typeform-widget" data-url="https://eduardo116867.typeform.com/to/fNfRBa" style="width: 100%; height: 500px;">
+        </div>
+        <script>
+        (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+        </script>
      </section>
-   mm-->
 
     <!--Footer-->
      <footer class="bg-dark text-center text-light p-3">
